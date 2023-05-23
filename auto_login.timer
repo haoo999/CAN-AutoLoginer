@@ -1,0 +1,9 @@
+[Unit]
+Description = Run Auto_Login Every Hour
+
+[Timer]
+OnUnitActiveSec = 1h
+Unit = auto_login.service
+
+[Install]
+WantedBy = multi-user.target

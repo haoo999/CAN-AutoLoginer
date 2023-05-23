@@ -1,0 +1,5 @@
+[Unit]
+Description = Auto Login
+
+[Service]
+ExecStart = /usr/bin/zsh /home/dhu/auto_login/auto_login.sh
